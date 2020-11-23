@@ -1,1 +1,20 @@
- 
+img {
+    width: 300px;
+    
+}
+#background1 {
+    background-color: rgba(0, 140, 255, 0.705);
+    width: 300px;
+    
+}
+#background2 {
+    background-color: rgba(71, 236, 134, 0.794);
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+#background3 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+}
