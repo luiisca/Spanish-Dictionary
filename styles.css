@@ -6,14 +6,67 @@ img {
     background-color: rgba(0, 140, 255, 0.705);
     width: 300px;
     display: inline-block;
+    position: relative;
+    bottom: 264px;
 }
 #background2 {
     background-color: rgba(71, 236, 134, 0.794);
     width: 300px;
     display: inline-block;
+    position: relative;
+    bottom: 262px;
 }
 #background3 {
     background-color: rgba(203, 49, 241, 0.705);
     width: 300px;
     display: inline-block;
+    position:relative;
 }
+#background4 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+    bottom: 230px;
+}
+#background5 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+    bottom: 610px;
+}
+#background6 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+    bottom: 590px;
+}
+#background7 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+}
+#background8 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+}
+#background9 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+}
+#background10 {
+    background-color: rgba(203, 49, 241, 0.705);
+    width: 300px;
+    display: inline-block;
+    position:relative;
+}
+/* .words {
+    font-family: 'Montserrat', sans-serif;
+} */
