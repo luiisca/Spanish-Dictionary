@@ -85,213 +85,61 @@ footer {
     
 }
 /* Backgrounds */
-#background1 {
-    background-color: rgba(0, 140, 255, 0.705);
+.back {
+    background-color: #D4DBF5;
     width: 300px;
     display: inline-block;
     position: relative;
+    border-radius: 10px;
+}
+#background1 {
     bottom: 264px;
-    border-radius: 10px;
-    border-radius: 10px;
-
 }
 #background2 {
-    background-color: rgba(71, 236, 134, 0.794);
-    width: 300px;
-    display: inline-block;
-    position: relative;
     bottom: 262px;
-    border-radius: 10px;
-
-}
-#background3 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
-    border-radius: 10px;
-
 }
 #background4 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 247px;
-    border-radius: 10px;
-
 }
 #background6 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 520px;
-    border-radius: 10px;
-
 }
 #background7 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
     height: 549px;
-    display: inline-block;
-    position:relative;
     right: 610px;
     bottom: -34px;
-    border-radius: 10px;
-
 }
 #background8 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 252px;
-    border-radius: 10px;
-
 }
 #background9 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     left: 307.3px;
     bottom: 628px;
-    border-radius: 10px;
-
 }
 #background10 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 557px;
-    border-radius: 10px;
 }
 #background5 {
-    background-color: rgba(203, 49, 241, 0.705);
     width: 605px;
     height: 330px;
-    display: inline-block;
-    position:relative;
     bottom: 295px;
-    left: 0px;
-    border-radius: 10px;
 }
 #background11 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 295px;
-    left: 0px;
-    border-radius: 10px;
 }
 #background12 {
-    background-color: rgba(203, 49, 241, 0.705);
-    width: 300px;
-    display: inline-block;
-    position:relative;
     bottom: 872.5px;
     left: 610px;
-    border-radius: 10px;
 }
 /* Content*/
-.term1{
+.term{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term2{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term3{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term4{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term5{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term6{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term7{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term8{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term9{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term10{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term11{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
-}
-.term12{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 20px;
-    background-color: turquoise;
+    font-size: 17px;
+    color: white;
+    background-color:#5093DE;
 }
 .definition {
     font-family: 'Montserrat', sans-serif;
