@@ -72,7 +72,11 @@ img {
 }
 .text {
     font-family: 'Montserrat', sans-serif;
-    font-weight:100
+    font-weight:300
+}
+.intro {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
 }
 
 
