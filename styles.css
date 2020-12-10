@@ -1,153 +1,84 @@
-
 /* STRUCTURE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 html {
-    height: 1400px;
+    font-size: 62.5%;
 }
-.intro {
-    font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
-    bottom: 10px;
-    line-height: 15pt; 
+.main-container {
+    font-size: 10vmin;
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(20em, 1fr)), repeat(auto-fit, minmax(20em, 1fr));
+    grid-template-areas: 
+        "box1 box2 box3 box4"
+        "box5 box6 box3 box8"
+        "box7 box9 box12 box8"
+        "box7 box10 box10 box11";
+    /* grid-gap: 100px 10px; */
 }
-.header_title {
-    font-family: 'Archivo Black', sans-serif;
-    text-align: center;
-    font-size: 50px;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
 }
-dl {
-    height: 1100px;
+/* BOXES */
+.box {
+    background-color: #D4DBF5;
+    font-size: 1.6rem;
 }
-footer {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
+.box1 {
+    grid-area: box1;
 }
-.RAE {
-    text-decoration: none;
-    font-style: normal;
-    color:rgb(54, 52, 52);
+.box2 {
+    grid-area: box2;
 }
-/* CARDS */
-/* Images */
-.sickle {
-    position: relative;
-    top: 4.8px;
-    height: 181px;
-    width: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.crossing {
-    position: relative;
-    top: 4.8px;
-    height: 500px;
-    width: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.universe {
-    position: relative;
-    top: 4.8px;
-    height: 280.75px;
-    width: 605px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.lambo {
-    position: relative;
-    top: 4.8px;
-    height: 450px;
-    width: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.salt {
-    position: relative;
-    top: 4.8px;
-    width: 300px;
-    height: 196px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.runner {
-    position: relative;
-    top: 4.8px;
-    width: 300px;
-    height: 194px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.sky, .mixer, .ivory, .bro, .crowd, .gem{
-    position: relative;
-    top: 4.8px;
-    width: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.box3 {
+    grid-area: box3;
+    display: flex;
+    flex-flow: column wrap;
     
 }
-/* Backgrounds */
-.back {
-    background-color: #D4DBF5;
-    width: 300px;
-    display: inline-block;
-    position: relative;
-    border-radius: 10px;
+.box3_terms {
+    /* flex-grow: 1; */
+    /* align-self: center; */
 }
-#background1 {
-    bottom: 264px;
+.box3_img {
+    /* flex-grow: 1; */
+    background-image: url(Imágenes/marfil.jpg);
+    background-size:contain;
+    background-attachment: scroll;
+    background-position-y: bottom;
+    background-size: cover;
+    height: 100%;
+    align-self: stretch;
 }
-#background2 {
-    bottom: 262px;
+.box4 {
+    grid-area: box4;
 }
-#background4 {
-    bottom: 247px;
+.box5 {
+    grid-area: box5;
 }
-#background6 {
-    bottom: 520px;
+.box6 {
+    grid-area: box6;
 }
-#background7 {
-    height: 549px;
-    right: 610px;
-    bottom: -34px;
+.box7 {
+    grid-area: box7;
 }
-#background8 {
-    bottom: 252px;
+.box8 {
+    grid-area: box8;
 }
-#background9 {
-    left: 307.3px;
-    bottom: 628px;
+.box9 {
+    grid-area: box9;
 }
-#background10 {
-    bottom: 557px;
+.box10 {
+    grid-area: box10;
 }
-#background5 {
-    width: 605px;
-    height: 330px;
-    bottom: 295px;
+.box11 {
+    grid-area: box11;
 }
-#background11 {
-    bottom: 295px;
+.box12 {
+    grid-area: box12;
 }
-#background12 {
-    bottom: 872.5px;
-    left: 610px;
-}
-/* Content*/
-.term{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 17px;
-    color: white;
-    background-color:#5093DE;
-}
-.definition {
-    font-family: 'Montserrat', sans-serif;
-    font-weight:300;
-    position: relative;
-    right: 20px;
-    text-align:center;
-}
-
-
-
