@@ -9,7 +9,7 @@ html {
     font-size: 62.5%;
 }
 html, body, main, .main-container {
-    height: 90rem;
+    height: 100rem;
 }
 .main-container {
     display: grid;
@@ -24,7 +24,6 @@ html, body, main, .main-container {
 /* BOXES */
 .box {
     background-color: #D4DBF5;
-    font-size: 2vh;
     display: flex;
     flex-direction: column;
     border-radius: .8rem;
@@ -110,13 +109,44 @@ html, body, main, .main-container {
     background-image: url(Imágenes/depauperar.jpg);
 }
 /* TERMS */
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5.5rem;
+    text-align: center;
+    padding: 30px;
+}
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.terms {
+    font-family: 'Montserrat', sans-serif;
+}
 .box_term {
     background-color: #5093DE;
     text-align: center;
     color: white;
-    font-family: ;
+    font-size: 2.8vh;
+    font-weight: 600;
 }
 .box_def {
-    text-align: center;
-    font-family: ;
+    text-align: center; 
+    font-size: 2.3vh;
+}
+/* Footer */
+footer {
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
