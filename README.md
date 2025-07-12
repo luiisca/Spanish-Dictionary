@@ -2,7 +2,7 @@
 
 In this project we are going to build a Dictionary with 10 unknown words of the Spanish language. I hope you enjoy reading it almost as much as I enjoyed building it.
 ## 🚀DEMO
-If you want to learn some HARD words in Spanish you can visit my [dictionary](https://luiscadillo.github.io/Spanish-Dictionary/ "dictionary") (powered by GitHub pages btw)
+If you want to learn some HARD words in Spanish you can visit my [dictionary](https://luiisca.github.io/Spanish-Dictionary/) (powered by GitHub pages btw)
 ## ✨Gratitude 
 To my dog how still here wih me ever, even in my moments of absolutly frustration.
 ## 👀Preview
